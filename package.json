@@ -1,5 +1,5 @@
 {
-  "name": "react-sound-no-debug",
+  "name": "react-sound",
   "version": "0.8.0",
   "description": "React Sound component using soundmanager2 without debugging",
   "main": "lib/index.js",
