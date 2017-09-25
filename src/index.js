@@ -8,6 +8,8 @@ let soundManager;
 if (typeof window !== 'undefined') {
   soundManager = require('soundmanager2').soundManager;
 
+  soundManager.setup({ debugMode: false });
+
   soundManager.onready(() => {
     pendingCalls.slice().forEach(cb => cb());
   });

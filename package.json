@@ -1,7 +1,7 @@
 {
-  "name": "react-sound",
+  "name": "react-sound-no-debug",
   "version": "0.8.0",
-  "description": "React Sound component using soundmanager2",
+  "description": "React Sound component using soundmanager2 without debugging",
   "main": "lib/index.js",
   "scripts": {
     "start": "cd examples && webpack-dev-server --port 3000 --progress --inline --hot --devtool eval-source-map",
@@ -18,7 +18,7 @@
   ],
   "author": "Leonardo Andres Garcia Crespo <leoasis@gmail.com>",
   "license": "ISC",
-  "homepage": "https://github.com/leoasis/react-sound",
+  "homepage": "https://github.com/eghernqvist/react-sound",
   "dependencies": {
     "prop-types": "^15.5.7",
     "react": ">=15.3.0 <16.0.0",
